@@ -12,7 +12,7 @@ $auditorias_totales = 0;
 $ausencias_totales = 0;
 $iduser = $_SESSION["user_id"];
 for($i=1;$i<=1;$i++)
-{
+{ 
 $resta = $i - $dias;
 $fecha_variable = date("Y-m-d", time());
 if($resta == 0)
